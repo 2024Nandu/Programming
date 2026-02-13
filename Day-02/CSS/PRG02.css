@@ -1,0 +1,25 @@
+
+#one{
+    font-family: arial;
+}
+/* there are many font family such as arial,sans serif,fantasy,monospace
+and it will work on different browser diferrent font families */
+
+#two{
+    font-family: 'segoe uI';
+}
+/* the above is text properties where we can align the text in center or end */
+h1{
+    text-align: center;
+    text-decoration: blueviolet;
+}
+/* the other property is text decoration where we can do underline overline and line through */ */
+h2{ 
+    text-align: center;
+    text-decoration:overline;
+}
+
+h3{
+    text-align:center;
+    text-decoration:line-through;
+}

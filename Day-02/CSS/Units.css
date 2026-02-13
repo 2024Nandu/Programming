@@ -1,0 +1,17 @@
+#one{
+    font-size: 25px;
+    line-height: 1px;
+}
+/* 1px is so small that lines are getting overlapped on each other */
+
+#two{
+    font-size: large;
+    line-height: 50px;
+    text-transform: uppercase;
+    text-transform: capitalize;
+}
+/* line height will defined by space between the lines */
+
+#three{
+    font-size: medium;
+}
