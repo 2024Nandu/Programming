@@ -1,0 +1,14 @@
+div{
+    height:100px;
+    width:100px;
+    background-color: pink;
+    border: 2px solid brown;
+    text-align:center;
+    border-radius: 15px;
+    /* from both above and below only one line is executed mostly afetr writen only  */
+    /* border-radius: 50%; */
+    padding-left: 20px;
+    padding: 25px;
+}
+/* if border radius is 50% it will convert it into circle*/
+/* if border radius is 25% it will become square with rounded corners */

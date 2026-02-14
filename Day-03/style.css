@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: antiquewhite;
+}
+
+.navbar{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    height: 60px;
+}
+h3{
+    color: orange;
+}
+
+a{
+    text-decoration: underline; 
+    color: inherit;       
+    cursor: pointer;
+    color: white;
+    font-size: 13px;
+    margin-right: 60px;
+
+}
+
+.main-card {
+    display: flex;
+    flex-wrap: wrap;       /* This is the magic: it moves cards to the next line */
+    justify-content: center; /* Centers the cards on the screen */
+    gap: 20px;             /* Better than margins! Adds even space between cards */
+    padding: 20px;
+    /* margin-top: 70px; */
+    
+}
+
+.card {
+    width: 100px;
+    height: 300px;
+    background: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    box-shadow: 2px 2px 1px;
+    border-radius: 25px;
+    flex-shrink: 0;   
+    width:200px;
+    height:250px;  
+    margin-bottom:50px ;   /* Prevents the card from getting skinnier than 400px */
+}
+button{
+    color:brown;
+}
+
+.Nandu{
+    font-size: 10px;
+}
+.ToParallel{
+    display: flex;
+    width: 100%;
+    background-color: black;
+}
+.Bottom{
+    margin:30px;
+
+}
+
+p{
+    color: azure;
+}
+.main-footer {
+    background-color: #232F3E;
+    color: white;
+    padding: 40px 0;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.footer-column {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.footer-column h3 {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+ 
+.footer-column p {
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.footer-column p:hover {
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: center;   /* center horizontally */
+    align-items: center;       /* center vertically */
+    gap: 20px;                 /* space between items */
+    margin-top: 30px;
+    background-color:blueviolet ;
+    padding: 15px;
+}
