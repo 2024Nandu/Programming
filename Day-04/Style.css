@@ -1,0 +1,32 @@
+div{
+    height:100px;
+    width: 100px;
+    background-color: aqua;
+    border:5px solid black;
+    display:inline-block;
+}
+
+#box1{
+    position: static;
+    /* static means it does not move */
+}
+
+#box2{
+    position: relative;
+    top: 10px;
+    left:20px;
+    /* relative meANS IT MOVES to its original place */
+}
+
+#box3{
+    position: absolute;
+    /* positioned relative to nearest positioned parent */
+    top:100px;
+}
+
+#box4{
+    position:fixed;
+    right:10px;
+    bottom:20px;
+    top:0;
+}
