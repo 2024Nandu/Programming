@@ -1,5 +1,47 @@
-h1{
-    background-color:black;
-    color:aliceblue
-
+div{
+    height:100px;
+    width:100px;
+    background-color: aqua;
+    border:2px solid black;
+    display: inline-block;
 }
+
+body{
+    background-image: url("photo.jpeg.jpg");
+    height:100px;
+    background-size: cover;
+}
+
+
+
+
+#box1{
+    position:static;
+    background-image: url("Nandu.jpg");
+    background-size: contain;
+    left: 400px;
+}
+
+#box2{
+    position:relative;
+    top:20px;
+    left:560px;
+    z-index: 1;
+    background-image: url("Shinde.jpg");
+    background-size: contain;
+}
+
+#box3{
+    position:relative;
+    /* top:; */
+    left:20px;
+    background-image: url("Maharaj.jpg");
+    background-size: contain;
+}
+
+#box4{
+    position: fixed;
+    top:120px;
+    left: 20px;
+    z-index: -3;
+} 
