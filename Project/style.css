@@ -105,5 +105,98 @@ span{
 
 .nav-cart{
     font-size: 0.85rem;
-    font-weight: ;
+    font-weight: bold;
 }
+
+/* panel */
+.panel{
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    color:white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.panel-ops  p{
+  display: inline;
+  margin-left: 15px;
+}
+
+.panel-ops {
+    width: 70%;
+    font-size: 0.85rem;
+}
+
+.panel-deals {
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+/* hero section */
+.hero-section {
+    background-image: url("kkkkk.jpg");
+    background-size: cover;
+    height: 400px;   
+}
+
+/* .her-msg{
+    background-color: white;
+    color: black;
+    height: 40px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    font-size: 0.85rem;
+    width: 80%;
+}
+
+.her-msg a{
+    color: #007185;
+} */
+
+/* shop swection */
+.shop-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: beige;
+}
+
+.shop-section2{
+     display: flex;
+     flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: beige;
+    margin-top: 30px;
+}
+
+.box {
+    border: 2px solid black;
+    height: 400px;
+    width: 20%;
+    background-color: #222f3d;
+    padding: 20px 0px 15px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.box-img {
+    height: 300px;
+    background-size: contain;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.box-content {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.box-content p{
+    color: #007185;
+}
+
+
+
+
